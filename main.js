@@ -146,5 +146,6 @@ window.onload = function () {
         render();
     }
 
+    setCoordinates();
     render();
 }
