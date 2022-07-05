@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze game</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: #000;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header {
+            color: #c9b900;
+            padding: 0.5rem 1rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: sans-serif;
+            font-size: 2rem;
+        }
+
+        #level {
+            margin-left: 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Level <span id="level">1</span></header>
+
+    <canvas></canvas>
+
+    <script src="maze-builder.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
